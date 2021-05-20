@@ -1,0 +1,17 @@
+#searchButton {
+    max-width: 200px !important;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn {
+    padding: 0 5px;
+}
+body {
+    background-color: aliceblue;
+}

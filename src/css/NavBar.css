@@ -1,0 +1,55 @@
+.navBar{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #252525;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+ 
+}
+
+.iconDiv {
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+.innerDiv {
+    position: relative;
+}
+.fas{
+    text-align: center;
+}
+
+.activated {
+    color: rgb(59, 221, 140);
+}
+.notActivated {
+    color: rgb(255, 255, 255);
+}
+.iconDiv {
+    padding: 10px;
+    margin: 0;
+}
+.iconDiv:hover{
+    background-color: black;
+}
+.nav-item-label{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.signOutDiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+small, span, label,a, i{
+    font-size: 28px !important;
+}

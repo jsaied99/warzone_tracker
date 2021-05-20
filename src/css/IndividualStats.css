@@ -1,0 +1,33 @@
+.statsOfDiv {
+    width: 100%;
+    height: 40px;
+}
+
+.statsOfP{
+    color: white;
+    padding-left: 5px;
+    margin: 10px;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    /* text-transform:uppercase; */
+}
+#content {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+
+    width: 800px;
+    height: 700px;
+
+    top: 50%;
+    left: 50%;
+
+
+
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
